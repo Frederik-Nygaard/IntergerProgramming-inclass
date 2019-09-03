@@ -28,5 +28,3 @@ println("Procurement planning result: $(objective_value(Manpower))")
 for i in 1:7
     println("X1:" , JuMP.value(x[i]))
 end
-
-#test
